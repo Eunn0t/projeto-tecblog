@@ -29,9 +29,6 @@ body {
     padding: 15px;
 }
 
-#area-lateral {
-    background: orange;
-}
 
 #area-postagens {
     width: 660px;
@@ -49,6 +46,18 @@ body {
     margin-bottom: 20px;
     background: white;
     
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 00.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
 }
 
 #rodape {
@@ -94,6 +103,12 @@ h2 {
     color: #f7b600;
 }
 
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
 .branco {
     color: white;
 }
@@ -105,3 +120,4 @@ h2 {
     margin-bottom: 10px;
     display: block;
 }
+
